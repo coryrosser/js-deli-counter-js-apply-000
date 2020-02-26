@@ -9,12 +9,12 @@ function takeANumber(katzDeliLine, newCustomer) {
 
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
-    return "There is nobody waiting to be served!";
+  // if (katzDeliLine.length === 0) {
+  //   return "There is nobody waiting to be served!";
     
-  } else {
-    return "Currently serving " + katzDeliLine.shift() + ".";
-  }
+  // } else {
+  //   return "Currently serving " + katzDeliLine.shift() + ".";
+  // }
 }
 
 function currentLine(katzDeliLine) {
