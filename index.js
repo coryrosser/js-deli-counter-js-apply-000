@@ -7,7 +7,6 @@ function takeANumber(katzDeliLine, newCustomer) {
   return greeting;
 }
 
-takeANumber();
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
@@ -17,8 +16,6 @@ function nowServing(katzDeliLine) {
     return "Currently serving " + katzDeliLine.shift() + ".";
   }
 }
-
-nowServing();
 
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {
@@ -34,5 +31,3 @@ function currentLine(katzDeliLine) {
   return "The line is currently: " + nameNum.join(', ');
   
 }
-
-currentLine();
