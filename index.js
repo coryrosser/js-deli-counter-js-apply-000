@@ -2,7 +2,8 @@
 
 function takeANumber(katzDeliLine, newCustomer) {
   katzDeliLine.push(newCustomer);
-  let greeting = "Welcome, " + newCustomer + ". You are number " + katzDeliLine.length + " in line.";
+ //const greeting = "Welcome, " + newCustomer + ". You are number " + katzDeliLine.length + " in line.";
+  const greeting = "Welcome, ${newCustomer}. You are number ${katzDeliLine.length} in line."
   return greeting;
 }
 
